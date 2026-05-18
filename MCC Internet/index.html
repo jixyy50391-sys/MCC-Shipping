@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MCC Shipping is a global maritime transportation company specializing in safe and efficient tanker shipping services.">
+    <meta name="keywords" content="shipping, maritime transportation, tanker shipping, MCC International">
+    <title>MCC International - Global Maritime Transportation Leader</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#top" class="logo-container">
+            <img src="img/logo.png" alt="MCC International Logo" class="logo-img">
+            <div class="logo-text">
+                <span class="logo-main">MCC INTERNATIONAL</span>
+            </div>
+        </a>
+        <div class="nav-links">
+            <a href="#about">About Us</a>
+            <div class="dropdown">
+                <a href="#fleet">Our Fleet</a>
+                <div class="dropdown-menu">
+                    <a href="#fleet-list-table">Fleet List</a>
+                    <a href="#gallery">Fleet Gallery</a>
+                    <a href="#core-specs">Core Vessel Specifications</a>
+                </div>
+            </div>
+            <a href="#environmental">Environmental & Technology</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <div id="top" class="carousel">
+        <div class="carousel-slide">
+            <div class="carousel-content">
+                <p>MCC Shipping Is A Trusted Global Tanker Company Serving The Shipping Industry.</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="section">
+        <h2 class="section-title">About Our Company</h2>
+        <div class="about">
+            <div class="about-text">
+                <p>MCC Shipping is currently chartering and operating three foreign-flagged vessels from MC Group Limited, with the first vessel delivered on 10 October 2025. As part of its strategic expansion plan, the Company will progressively charter an additional seven foreign-flagged vessels by the end of 2026, all under long-term charter arrangements.</p>
+                <p>In line with MCC Group’s long-term operational strategy and subject to market demand, MCC Shipping intends to further expand its fleet with six additional vessels.</p>
+                <p>Committed to environmental sustainability, all vessels in the fleet comply with and exceed IMO Tier III emission standards and meet EEDI Phase III requirements. The vessels are methanol dual-fuel ready, supporting the global shipping industry’s transition toward greener and more sustainable operations.</p>
+            </div>
+            <div class="about-img">
+                <img src="img/fleet1.jpg" alt="Our Shipping Fleet" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <section class="video-carousel-section">
+        <h2 class="section-title" style="margin-top: -2rem;">Featured Videos</h2>
+        <div class="video-carousel">
+            <div class="video-carousel-slides">
+                <div class="video-slide">
+                    <div class="video-card">
+                        <div class="video-container">
+                            <video controls muted playsinline preload="auto" poster="img/video-cover1.jpg">
+                                <source src="video/company-overview.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-desc">
+                            <h3>MCC Shipping Fleet Overview</h3>
+                            <p>Take a tour of our modern, eco-friendly shipping fleet and learn about our expansion plans for 2026.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-slide">
+                    <div class="video-card">
+                        <div class="video-container">
+                            <video controls muted playsinline preload="auto" poster="img/video-cover2.jpeg">
+                                <source src="video/eco-technology.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <div class="video-desc">
+                            <h3>MC GAEA Successfully Launched</h3>
+                            <p>The launch of MV MC GAEA marks a new milestone for our fleet, empowering global energy transportation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="video-carousel-btn video-prev-btn" aria-label="Previous">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+            </button>
+            <button class="video-carousel-btn video-next-btn" aria-label="Next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            </button>
+            <div class="video-indicators">
+                <div class="video-indicator active" data-index="0"></div>
+                <div class="video-indicator" data-index="1"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fleet" class="section fleet">
+        <h2 class="section-title">Our Fleet</h2>
+
+        <div id="fleet-list-table" class="fleet-list-section">
+            <div class="fleet-list-header">
+                <h3 class="fleet-list-title">Fleet list</h3>
+                <a href="MCC Fleet List.pdf" download="MCC Fleet List.pdf" style="text-decoration: none;">
+                    <button class="download-pdf-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        Download PDF
+                    </button>
+                </a>
+            </div>
+            <table class="fleet-data-table">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Vessel Name</th>
+                        <th>Vessel Type</th>
+                        <th>Flag</th>
+                        <th>Delivery Date</th>
+                        <th>Shipyard</th>
+                        <th>Class</th>
+                        <th>LOA (m)</th>
+                        <th>Beam (m)</th>
+                        <th>S.Draft (m)</th>
+                        <th>S.DWT (mt)</th>
+                        <th>Capacity @98% (cbm)</th>
+                        <th>No. of Cargo Tanks</th>
+                        <th>No. of Segregations</th>
+                        <th>Coating</th>
+                        <th>Inerting System</th>
+                        <th>Scrubber/EGCS</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>MC GAEA</td>
+                        <td>MR (IM02)</td>
+                        <td>Liberia</td>
+                        <td>10/10/2025</td>
+                        <td>Yangzhou Guoyu</td>
+                        <td>ABS</td>
+                        <td>182.75</td>
+                        <td>32.2</td>
+                        <td>13.3</td>
+                        <td>49652.9</td>
+                        <td>52,915.90</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>MarineLine</td>
+                        <td>IGS + N2</td>
+                        <td>Fitted</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>MC HERA</td>
+                        <td>MR (IM02)</td>
+                        <td>Liberia</td>
+                        <td>31/10/2025</td>
+                        <td>Zhejiang Tianshi</td>
+                        <td>ABS</td>
+                        <td>182.75</td>
+                        <td>32.2</td>
+                        <td>13.3</td>
+                        <td>49616</td>
+                        <td>52,893.41</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>MarineLine</td>
+                        <td>IGS + N2</td>
+                        <td>Fitted</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>MC METIS</td>
+                        <td>MR (IM02)</td>
+                        <td>Liberia</td>
+                        <td>06/02/2026</td>
+                        <td>Yangzhou Guoyu</td>
+                        <td>ABS</td>
+                        <td>182.75</td>
+                        <td>32.2</td>
+                        <td>13.3</td>
+                        <td>49609.9</td>
+                        <td>52,853.34</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>MarineLine</td>
+                        <td>IGS + N2</td>
+                        <td>Fitted</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>MC THALIA</td>
+                        <td>MR (IM02)</td>
+                        <td>TBD</td>
+                        <td>10/06/2026</td>
+                        <td>Zhejiang Tianshi</td>
+                        <td>ABS</td>
+                        <td>182.75</td>
+                        <td>32.2</td>
+                        <td>13.3</td>
+                        <td>49000</td>
+                        <td>52,900.00</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>MarineLine</td>
+                        <td>IGS + N2</td>
+                        <td>Fitted</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>MC CALYPSO</td>
+                        <td>MR (IM02)</td>
+                        <td>TBD</td>
+                        <td>15/05/2026</td>
+                        <td>Yangzhou Guoyu</td>
+                        <td>ABS</td>
+                        <td>182.75</td>
+                        <td>32.2</td>
+                        <td>13.3</td>
+                        <td>49000</td>
+                        <td>52,900.00</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>MarineLine</td>
+                        <td>IGS + N2</td>
+                        <td>Fitted</td> 
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>MC PHOEBE</td>
+                        <td>MR (IM02)</td>
+                        <td>TBD</td>
+                        <td>15/07/2026</td>
+                        <td>Yangzhou Guoyu</td>
+                        <td>ABS</td>
+                        <td>182.75</td>
+                        <td>32.2</td>
+                        <td>13.3</td>
+                        <td>49000</td>
+                        <td>52,900.00</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>MarineLine</td>
+                        <td>IGS + N2</td>
+                        <td>Fitted</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>MC HESTIA</td>
+                        <td>MR (IM02)</td>
+                        <td>TBD</td>
+                        <td>01/12/2026</td>
+                        <td>Yangzhou Guoyu</td>
+                        <td>ABS</td>
+                        <td>182.75</td>
+                        <td>32.2</td>
+                        <td>13.3</td>
+                        <td>49000</td>
+                        <td>52,900.00</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>MarineLine</td>
+                        <td>IGS + N2</td>
+                        <td>Fitted</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>MC HEBE</td>
+                        <td>MR (IM02)</td>
+                        <td>TBD</td>
+                        <td>01/01/2027</td>
+                        <td>Zhejiang Tianshi</td>
+                        <td>ABS</td>
+                        <td>182.75</td>
+                        <td>32.2</td>
+                        <td>13.3</td>
+                        <td>49000</td>
+                        <td>52,900.00</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>MarineLine</td>
+                        <td>IGS + N2</td>
+                        <td>Fitted</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>MC IRIS</td>
+                        <td>MR (IM02)</td>
+                        <td>TBD</td>
+                        <td>01/05/2027</td>
+                        <td>Yangzhou Guoyu</td>
+                        <td>ABS</td>
+                        <td>182.75</td>
+                        <td>32.2</td>
+                        <td>13.3</td>
+                        <td>49000</td>
+                        <td>52,900.00</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>MarineLine</td>
+                        <td>IGS + N2</td>
+                        <td>Fitted</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>MC PERSE</td>
+                        <td>MR (IM02)</td>
+                        <td>TBD</td>
+                        <td>01/08/2027</td>
+                        <td>Yangzhou Guoyu</td>
+                        <td>ABS</td>
+                        <td>182.75</td>
+                        <td>32.2</td>
+                        <td>13.3</td>
+                        <td>49000</td>
+                        <td>52,900.00</td>
+                        <td>20</td>
+                        <td>10</td>
+                        <td>MarineLine</td>
+                        <td>IGS + N2</td>
+                        <td>Fitted</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3 id="gallery" style="color: #0f3460; margin: 0 0 2.5rem; font-size: 1.8rem; font-family: 'Montserrat', sans-serif; font-weight: 700; text-align: center;">Fleet Gallery</h3>
+        
+        <div class="fleet-list">
+            <div class="fleet-card">
+                <img src="img/vessel1.jpeg" alt="MC GAEA" class="fleet-card-img" loading="lazy">
+                <div class="fleet-card-content"><h4>1st NB - MC GAEA</h4><p>Delivered: October 2025</p></div>
+            </div>
+            <div class="fleet-card">
+                <img src="img/vessel2.jpg" alt="MC HERA" class="fleet-card-img" loading="lazy">
+                <div class="fleet-card-content"><h4>2nd NB - MC HERA</h4><p>Delivered: November 2025</p></div>
+            </div>
+            <div class="fleet-card">
+                <img src="img/vessel3.jpg" alt="MC METIS" class="fleet-card-img" loading="lazy">
+                <div class="fleet-card-content"><h4>3rd NB - MC METIS</h4><p>Delivered: January 2026</p></div>
+            </div>
+            <div class="fleet-card pending">
+                <img src="img/vessel4.jpg" alt="MC THALIA" class="fleet-card-img" loading="lazy">
+                <div class="fleet-card-content"><h4>4th NB - MC THALIA</h4><p>Schedule: June 2026</p></div>
+            </div>
+            <div class="fleet-card">
+                <img src="img/vessel5.jpg" alt="MC CALYPSO" class="fleet-card-img" loading="lazy">
+                <div class="fleet-card-content"><h4>5th NB - MC CALYPSO</h4><p>Schedule: May 2026</p></div>
+            </div>
+            <div class="fleet-card pending">
+                <img src="img/vessel6.jpg" alt="MC PHOEBE" class="fleet-card-img" loading="lazy">
+                <div class="fleet-card-content"><h4>6th NB - MC PHOEBE</h4><p>Schedule: July 2026</p></div>
+            </div>
+            <div class="fleet-card pending">
+                <img src="img/vessel7.jpg" alt="MC HESTIA" class="fleet-card-img" loading="lazy">
+                <div class="fleet-card-content"><h4>7th NB - MC HESTIA</h4><p>Schedule: October 2026</p></div>
+            </div>
+            <div class="fleet-card pending">
+                <img src="img/vessel8.jpg" alt="MC HEBE" class="fleet-card-img" loading="lazy">
+                <div class="fleet-card-content"><h4>8th NB - MC HEBE</h4><p>Schedule: January 2027</p></div>
+            </div>
+            <div class="fleet-card pending">
+                <img src="img/vessel9.jpg" alt="MC IRIS" class="fleet-card-img" loading="lazy">
+                <div class="fleet-card-content"><h4>9th NB - MC IRIS</h4><p>Schedule: May 2027</p></div>
+            </div>
+            <div class="fleet-card pending">
+                <img src="img/vessel10.jpeg" alt="MC PERSE" class="fleet-card-img" loading="lazy">
+                <div class="fleet-card-content"><h4>10th NB - MC PERSE</h4><p>Schedule: August 2027</p></div>
+            </div>
+        </div>
+
+        <div id="core-specs" class="fleet-specs" style="margin-top: 5rem;">
+            <h3 style="color: #0f3460; font-family: 'Montserrat', sans-serif; font-weight: 700; margin-bottom: 1.5rem;">Core Vessel Specifications</h3>
+            <ul>
+                <li>49,000 Dead Weight Tonnage (DWT)</li>
+                <li>IMO Tier II compliant</li>
+                <li>MarineLine cargo tank coating</li>
+                <li>20 cargo tanks configuration</li>
+                <li>Equipped with exhaust gas cleaning systems (scrubbers)</li>
+                <li>Eco-efficient fuel consumption design</li>
+                <li>Classed by American Bureau of Shipping (ABS)</li>
+                <li>Full in-house fleet management by our group</li>
+                <li>52,900.00 Cu (98% cubic capacity incl. slop tanks for all vessels)</li>
+            </ul>
+        </div>
+    </section>
+
+    <div id="lightbox"><img src="" alt="Enlarged view"></div>
+
+    <section id="environmental" class="section">
+        <h2 class="section-title">Environmental & Technology</h2>
+        <div class="projects">
+            <div class="project-card">
+                <img src="img/project1.png" alt="Low Carbon Emissions" loading="lazy">
+                <div class="project-content">
+                    <h3>Low Carbon Emissions</h3>
+                    <p>Our eco-friendly ships use advanced low-sulfur fuel systems and methanol dual-fuel engines, cutting SOx, NOx, and CO₂ emissions by 60–70% compared to conventional vessels, fully meeting the latest IMO environmental standards.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project2.png" alt="Energy Efficiency" loading="lazy">
+                <div class="project-content">
+                    <h3>Energy Efficiency</h3>
+                    <p>Equipped with exhaust gas treatment systems (scrubbers), shaft generators, vortex dampers, duct shrouds, and special low-resistance hull coatings, these ships reduce energy consumption by 15%.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="img/project3.png" alt="Intelligent Management & Marine Protection" loading="lazy">
+                <div class="project-content">
+                    <h3>Intelligent Management & Marine Protection</h3>
+                    <p>Latest smart navigation systems optimize routes and monitor performance. Advanced ballast water treatment and non-toxic antifouling paints minimize marine pollution and protect ecosystems.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <p class="contact-intro">We are here to assist you. Please feel free to reach out to us for any shipping or chartering inquiries.</p>
+                
+                <ul class="contact-details">
+                    <li>
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        </div>
+                        <div class="detail-text">
+                            <strong>Office Address</strong>
+                            <span class="address-wrap">
+                                <span>10 Marina Boulevard, Marina Bay Financial Centre,</span>
+                                <span>Tower 2, #32-03, Singapore 018983</span>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        </div>
+                        <div class="detail-text">
+                            <strong>Phone</strong>
+                            <span>+65 6298 8280</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        </div>
+                        <div class="detail-text">
+                            <strong>Email</strong>
+                            <a href="mailto:Chartering@mccshipping.com">Chartering@mccshipping.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-box">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                        </div>
+                        <div class="detail-text">
+                            <strong>Operating Hours</strong>
+                            <span>Monday - Friday, 9:00 AM - 5:00 PM (GMT+8)</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="contact-map">
+                <iframe src="https://maps.google.com/maps?q=10+Marina+Boulevard,+Marina+Bay+Financial+Centre,+Tower+2,+Singapore+018983&t=&z=15&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#about">About Us</a>
+            <a href="#fleet">Our Fleet</a>
+            <a href="#environmental">Environmental & Technology</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p>© 2026 MCC INTERNATIONAL SHIPPING PTE LTD. All rights reserved.</p>
+        <p>Safety | Sustainability | Excellence</p>
+    </footer>
+
+    <button id="back-to-top" aria-label="Back to Top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"></polyline></svg>
+    </button>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const nav = document.querySelector('nav');
+            const backToTopBtn = document.getElementById('back-to-top');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    nav.classList.add('scrolled');
+                } else {
+                    nav.classList.remove('scrolled');
+                }
+
+                if (window.scrollY > 400) {
+                    backToTopBtn.classList.add('show');
+                } else {
+                    backToTopBtn.classList.remove('show');
+                }
+            });
+
+            backToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+
+            const vContainer = document.querySelector('.video-carousel-slides');
+            const vIndicators = document.querySelectorAll('.video-indicator');
+            const vPrev = document.querySelector('.video-prev-btn');
+            const vNext = document.querySelector('.video-next-btn');
+            const allVideos = document.querySelectorAll('video');
+            let vIndex = 0;
+
+            function updateVideo() {
+                allVideos.forEach(v => {
+                    v.pause();
+                    v.classList.remove('mini-player'); 
+                });
+                
+                if(vContainer) vContainer.style.left = `-${vIndex * 100}%`;
+                vIndicators.forEach((ind, i) => ind.classList.toggle('active', i === vIndex));
+            }
+            if(vPrev) vPrev.onclick = () => { vIndex = (vIndex - 1 + 2) % 2; updateVideo(); };
+            if(vNext) vNext.onclick = () => { vIndex = (vIndex + 1) % 2; updateVideo(); };
+
+            const videoObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    const video = entry.target.querySelector('video');
+                    if (!video) return;
+                    
+                    if (!entry.isIntersecting && !video.paused) {
+                        video.classList.add('mini-player');
+                    } else {
+                        video.classList.remove('mini-player');
+                    }
+                });
+            }, { threshold: 0.1 }); 
+
+            allVideos.forEach(video => {
+                const container = video.closest('.video-container');
+                if (container) videoObserver.observe(container);
+
+                video.addEventListener('pause', () => {
+                    video.classList.remove('mini-player');
+                });
+            });
+
+            const lb = document.getElementById('lightbox');
+            const lbImg = lb.querySelector('img');
+            document.querySelectorAll('.fleet-card-img').forEach(img => {
+                img.onclick = function() {
+                    lbImg.src = this.src;
+                    lb.style.display = 'flex';
+                };
+            });
+            lb.onclick = () => lb.style.display = 'none';
+        });
+    </script>
+</body>
+</html>
